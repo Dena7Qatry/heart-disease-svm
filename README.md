@@ -17,9 +17,9 @@ This notebook was developed as part of the **Intro to AI** course at BSBI. It wa
 - **Model Optimization:**
   - Best SVM parameters from GridSearchCV:
     ```
-    {'C': 1, 'gamma': 0.001, 'kernel': 'linear'}
+    {'C': 1, 'gamma': 0.01, 'kernel': 'sigmoid'}
     ```
-  - Cross-validation accuracy: **0.839**
+  - Cross-validation accuracy: **0.8345**
 
 - **Final Model Evaluation on Test Set:**
   - Accuracy: **0.8524**
